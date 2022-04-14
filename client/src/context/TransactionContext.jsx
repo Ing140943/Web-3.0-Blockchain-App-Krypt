@@ -135,7 +135,7 @@ export const TransactionProvider = ({ children }) => {
     useEffect(() => {
         checkIfwalletIsConnected();
         checkIfTransactionsExist();
-    }, []);
+    }, [transactionCount]);
 
     return (
         <TransactionContext.Provider value={{ connectWallet, currentAccount, formData, setFormData, handleChange, sendTransaction, transactions, isLoading }}>
