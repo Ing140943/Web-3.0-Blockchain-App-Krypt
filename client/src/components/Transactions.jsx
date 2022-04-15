@@ -35,7 +35,7 @@ const TransactionCard = ({ addressTo, addressFrom, timestamp, message, keyword, 
                 </div>
                     <img 
                         src={gifUrl || url} 
-                        alt="gif" 
+                        alt="nature" 
                         className="w-full h-64 2x:h-96 rounded-md shadow-lg object-cover"
                     />
 
